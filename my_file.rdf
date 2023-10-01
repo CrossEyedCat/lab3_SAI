@@ -1,0 +1,722 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adventure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adventure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Arcade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Arcade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#BattleRoyale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#BattleRoyale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Bite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Bite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Build -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Build">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Card -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Card">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Fighting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Fighting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game_for -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game_for"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Hadouken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Hadouken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Horror -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Horror">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Jump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Jump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MMO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MMO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MOBA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MOBA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Mature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Mature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#OpenWorld -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#OpenWorld">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Platformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Platformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Puzzle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Puzzle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#RPG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#RPG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Racing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Racing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Raring_Metacritic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Raring_Metacritic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Roguelike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Roguelike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sandbox -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sandbox">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#SignMagic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#SignMagic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Simulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Simulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Stealth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Stealth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Survival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Survival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Tactical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Tactical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#VR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#VR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game_for"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#girls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#girls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game_for"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Raring_Metacritic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Raring_Metacritic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Raring_Metacritic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adults_Only_18+ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adults_Only_18+">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#AgeRating"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Civilization_VI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Civilization_VI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sports"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Strategy"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Counter-Strike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Counter-Strike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Mature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sandbox"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adults_Only_18+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Dota_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Dota_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MOBA"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#RPG"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#FIFA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#FIFA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Simulation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Fortnite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Fortnite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#BattleRoyale"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sandbox"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#girls"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Hearthstone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Hearthstone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Card"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Minecraft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Minecraft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sandbox"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Survival"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#girls"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Need_for_Speed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Need_for_Speed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#OpenWorld"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Racing"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Resident_Evil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Resident_Evil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Horror"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Mature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Survival"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adults_Only_18+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Street_Fighter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Street_Fighter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Fighting"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Super_Mario -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Super_Mario">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adventure"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Platformer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#girls"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Tetris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Tetris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Arcade"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Puzzle"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#The_Sims -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#The_Sims">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Simulation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#girls"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#The_Witcher_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#The_Witcher_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Mature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#OpenWorld"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#RPG"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#100-90"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adults_Only_18+"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#World_of_Warcraft -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#World_of_Warcraft">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Early_childhood"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Everyone_10_and_older"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MMO"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#RPG"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Teen"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#boys"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#70-0"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#90-70"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#geralt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#geralt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Jump"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#SignMagic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#mario -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#mario">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Jump"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#ryu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#ryu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Hadouken"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Jump"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#steve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#steve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Build"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#zombie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#zombie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Bite"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Ability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Character"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Game"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Genre"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Action"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Adventure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#BattleRoyale"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Card"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Fighting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Horror"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MMO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#MOBA"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Platformer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Puzzle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#RPG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Racing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Roguelike"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sandbox"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Simulation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Sports"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Stealth"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Strategy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Survival"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#VR"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Bite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Build"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Hadouken"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#Jump"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/8/untitled-ontology-2#SignMagic"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
